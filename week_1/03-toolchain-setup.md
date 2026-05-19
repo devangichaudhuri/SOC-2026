@@ -184,16 +184,8 @@ and quick for someone who's seen them before.
 Watching someone click through Quartus + ModelSim once makes it click much
 faster than reading steps:
 
-- **YouTube** — search *"Quartus Prime VHDL simulation ModelSim tutorial
-  beginner"* and pick a recent video showing: new project → add VHDL → run
-  RTL simulation → waveform.
-- **Intel's official "Quartus Prime Getting Started"** documentation — the
-  authoritative source for installation and project setup.
+https://www.youtube.com/watch?v=r2_kpu0a8hQ
 
-> Because tool UIs change between versions, prefer videos/articles from the
-> last couple of years and match the steps to *your* installed version. The
-> concepts (new project → add file → compile → simulate → waveform) never
-> change even if menus move.
 
 ---
 
