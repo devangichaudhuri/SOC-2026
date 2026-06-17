@@ -22,8 +22,10 @@ end ram16x8;
 
 **Behaviour:**
 - On `rising_edge(clk)` with `we='1'`: write `data_bus` into location `addr`.
-- On `rising_edge(clk)` with `we='0'`: read location `addr`; drive result
-  onto `data_bus` on the *next* clock edge (registered read).
+- Read on rising edge when we='0'.
+The addressed value is loaded into the output register on that clock edge
+and becomes visible immediately after the edge (after delta-cycle updates).
+This is a registered output, but not a full additional clock-cycle delay.
 - When not actively reading (i.e., during a write, or when another device
   owns the bus), the RAM drives `data_bus` to `(others => 'Z')`.
 
