@@ -1,0 +1,63 @@
+# Reading pref.tcl
+# do mod_counter_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/20.1/quartus/bin64/week2/mod_counter/mod_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:36 on Jun 24,2026
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/20.1/quartus/bin64/week2/mod_counter/mod_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mod_counter
+# -- Compiling architecture rtl of mod_counter
+# End time: 11:19:36 on Jun 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/20.1/quartus/bin64/week2/mod_counter/tb_mod_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:36 on Jun 24,2026
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/20.1/quartus/bin64/week2/mod_counter/tb_mod_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_mod_counter
+# -- Compiling architecture sim of tb_mod_counter
+# -- Loading package NUMERIC_STD
+# -- Loading entity mod_counter
+# End time: 11:19:37 on Jun 24,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_mod_counter
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_mod_counter 
+# Start time: 11:19:37 on Jun 24,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_mod_counter(sim)
+# Loading work.mod_counter(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+run 400ns
+restart -f
+run 400ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 12:12:59 on Jun 24,2026, Elapsed time: 0:53:22
+# Errors: 0, Warnings: 0

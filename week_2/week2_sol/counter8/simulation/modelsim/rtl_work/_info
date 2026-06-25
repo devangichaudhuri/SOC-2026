@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/simulation/modelsim
+Ecounter8
+Z1 w1782158300
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd
+Z6 FC:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd
+l0
+L5 1
+VXi^@[BT4?TD2>10R<i7Z60
+!s100 XVUP0I2nmdJl2h?MfmUcH1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1782158399
+!i10b 1
+Z9 !s108 1782158399.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd|
+Z11 !s107 C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 8 counter8 0 22 Xi^@[BT4?TD2>10R<i7Z60
+!i122 0
+l16
+L14 16
+Vh[0j5LOHzZlPM;]Xa^FCJ1
+!s100 HXoi8_R]Wf6XL?I4D3`6;2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_counter8
+Z15 w1782157586
+R3
+R4
+!i122 1
+R0
+Z16 8C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd
+Z17 FC:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd
+l0
+L26 1
+VM_Y6f3fQ<SB;iG<KzEV>30
+!s100 kR^:Gh^^R7[IQ_ZR`^^oi3
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd|
+!s107 C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd|
+!i113 1
+R12
+R13
+Asim
+R2
+R14
+R3
+R4
+DEx4 work 11 tb_counter8 0 22 M_Y6f3fQ<SB;iG<KzEV>30
+!i122 1
+l39
+L30 54
+V>G<Z[LZk3l?J?j``OcHQX0
+!s100 MC4P7b]bDb^i?LO[7GbAm3
+R7
+31
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd|
+!i113 1
+R12
+R13

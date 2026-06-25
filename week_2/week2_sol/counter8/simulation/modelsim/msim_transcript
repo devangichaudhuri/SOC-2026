@@ -1,0 +1,59 @@
+# Reading pref.tcl
+# do counter8_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:29:59 on Jun 23,2026
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter8
+# -- Compiling architecture rtl of counter8
+# End time: 01:29:59 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:29:59 on Jun 23,2026
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/tb_counter8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_counter8
+# -- Compiling architecture sim of tb_counter8
+# -- Loading package NUMERIC_STD
+# -- Loading entity counter8
+# End time: 01:29:59 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_counter8
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_counter8 
+# Start time: 01:30:00 on Jun 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_counter8(sim)
+# Loading work.counter8(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Process line__17 at C:/intelFPGA_lite/20.1/quartus/bin64/week2/counter8/counter8.vhd line 17
+# End time: 23:53:53 on Jun 23,2026, Elapsed time: 22:23:53
+# Errors: 0, Warnings: 0
