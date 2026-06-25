@@ -1,0 +1,30 @@
+|vending_machine
+clk => current_state~1.DATAIN
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin5 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+coin10 => next_state.OUTPUTSELECT
+dispense <= dispense.DB_MAX_OUTPUT_PORT_TYPE
+change <= change.DB_MAX_OUTPUT_PORT_TYPE
+
+

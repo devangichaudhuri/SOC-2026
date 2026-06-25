@@ -1,0 +1,14 @@
+|seq_det
+clk => current_state~1.DATAIN
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+data => next_state.S_1.DATAB
+data => next_state.S_101.DATAB
+data => Selector0.IN2
+data => Selector0.IN3
+data => next_state.S_10.DATAB
+detected <= detected.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+
+State Machine - |vending_machine|current_state
+Name current_state.DISP_C current_state.DISP current_state.S10 current_state.S5 current_state.S0 
+current_state.S0 0 0 0 0 0 
+current_state.S5 0 0 0 1 1 
+current_state.S10 0 0 1 0 1 
+current_state.DISP 0 1 0 0 1 
+current_state.DISP_C 1 0 0 0 1 

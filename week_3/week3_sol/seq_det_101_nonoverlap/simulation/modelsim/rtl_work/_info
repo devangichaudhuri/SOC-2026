@@ -1,0 +1,94 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/simulation/modelsim
+Eseq_det
+Z1 w1782390846
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/seq_det.vhd
+Z5 FC:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/seq_det.vhd
+l0
+L4 1
+VHLN>mE=5G==kMzPT8AdaJ2
+!s100 <JnJa5Zk5N8if>W57==FG0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1782395087
+!i10b 1
+Z8 !s108 1782395087.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/seq_det.vhd|
+Z10 !s107 C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/seq_det.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+Z13 DEx4 work 7 seq_det 0 22 HLN>mE=5G==kMzPT8AdaJ2
+!i122 0
+l17
+L13 37
+V@ONKFXESXlnAHb_hABTd?3
+!s100 PKbh2GUh;SV;O<DjckF^=2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_seq_det
+Z14 w1782394988
+R2
+R3
+!i122 1
+R0
+Z15 8C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/tb_seq_det.vhd
+Z16 FC:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/tb_seq_det.vhd
+l0
+L4 1
+VgF9>[7ZKk6gCnMR^2^?9E2
+!s100 Hf?Sm>><SI8F:Qdj<1SO>2
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/tb_seq_det.vhd|
+!s107 C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/tb_seq_det.vhd|
+!i113 1
+R11
+R12
+Asim
+R13
+R2
+R3
+DEx4 work 10 tb_seq_det 0 22 gF9>[7ZKk6gCnMR^2^?9E2
+!i122 1
+l16
+L7 46
+V3F4R_K5[Yf4dLPZ4EKLm13
+!s100 5iR8>70D0U8M`fOzZe7LM3
+R6
+31
+R7
+!i10b 1
+R8
+R17
+Z18 !s107 C:/Users/Devangi/Documents/SOC_2026/week3/seq_det_101_nonoverlap/tb_seq_det.vhd|
+!i113 1
+R11
+R12
